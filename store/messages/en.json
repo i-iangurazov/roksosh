@@ -1,0 +1,72 @@
+{
+    "ProductsList": {
+        "title": "Featured products"
+    },
+    "Banner": {
+        "title": "Your store for",
+        "subtitle1": "premium",
+        "subtitle2": "clothing",
+        "paragraph": "Welcome to ROKSOSH. Explore our curated selection of apparel where every item is carefully reviewed to ensure superior fit, comfort, and style."
+    },
+    "Perks": {
+        "perk_name1": "Fast Shipping",
+        "perk_desc1": "Get your outfits delivered quickly—processed within hours and delivered within a few days.",
+        "perk_name2": "Quality You Can Trust",
+        "perk_desc2": "All apparel is thoroughly inspected by our team to meet our highest quality standards. If it doesn’t fit or meet your expectations, enjoy an easy 2-day return policy.",
+        "perk_name3": "Style Guarantee",
+        "perk_desc3": "We help you stay on trend with constantly updated collections and exclusive seasonal drops curated by fashion experts."
+    },
+    "Footer": {
+        "title": "All rights reserved."
+    },
+    "Cart": {
+        "summary": "Order Summary",
+        "total": "Order total",
+        "checkout": "Checkout",
+        "title": "Shopping Cart",
+        "no_items": "No items in the cart",
+        "item_added": "Item added to cart",
+        "item_removed": "Item removed from cart",
+        "all_items_removed": "All items removed from cart",
+        "payment_ok": "Payment completed.",
+        "payment_cancel": "Payment canceled.",
+        "item_already": "Item already in cart",
+        "add": "Add to cart",
+        "checkout_title": "Checkout",
+        "checkout_desc": "Enter your details to place the order.",
+        "full_name": "Full name",
+        "phone_label": "Phone",
+        "address_label": "Address",
+        "cancel": "Cancel",
+        "place_order": "Place order",
+        "placing": "Placing...",
+        "fill_fields": "Please fill in all fields",
+        "invalid_phone": "Enter a valid +996 phone number",
+        "order_placed": "Order placed",
+        "order_failed": "Could not place order"
+    },
+    "Products": {
+        "sizes": "Sizes",
+        "colors": "Colors",
+        "size": "Size:",
+        "color": "Color:",
+        "no_results": "No results found.",
+        "filters": "Filters",
+        "brand": "Brand",
+        "sort": "Sort",
+        "price": "Price",
+        "price_low_high": "Price: Low to High",
+        "price_high_low": "Price: High to Low",
+        "price_under_3k": "Under 3000",
+        "price_3k_6k": "3000 - 6000",
+        "price_6k_10k": "6000 - 10000",
+        "price_10k_plus": "10000+"
+    },
+    "Search": {
+        "placeholder": "Search products",
+        "results_label": "Results",
+        "searching": "Searching…",
+        "no_matches": "No matches yet",
+        "view_all": "View all results"
+    }
+}

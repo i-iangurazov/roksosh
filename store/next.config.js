@@ -1,0 +1,18 @@
+const createNextIntlPlugin = require('next-intl/plugin');
+
+const withNextIntl = createNextIntlPlugin();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+	images: {
+		domains: ['res.cloudinary.com'],
+		remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "drive.google.com"
+      }
+    ]
+	},
+};
+
+module.exports = withNextIntl(nextConfig);
