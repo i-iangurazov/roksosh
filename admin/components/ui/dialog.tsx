@@ -10,11 +10,8 @@ const Dialog = DialogPrimitive.Root;
 
 const DialogTrigger = DialogPrimitive.Trigger;
 
-const DialogPortal = ({
-  className,
-  ...props
-}: DialogPrimitive.DialogPortalProps) => (
-  <DialogPrimitive.Portal className={cn(className)} {...props} />
+const DialogPortal = ({ children }: DialogPrimitive.DialogPortalProps) => (
+  <DialogPrimitive.Portal>{children}</DialogPrimitive.Portal>
 );
 DialogPortal.displayName = DialogPrimitive.Portal.displayName;
 
@@ -116,6 +113,7 @@ export {
   Dialog,
   DialogTrigger,
   DialogContent,
+  DialogOverlay,
   DialogHeader,
   DialogFooter,
   DialogTitle,
